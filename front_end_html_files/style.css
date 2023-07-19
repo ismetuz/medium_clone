@@ -1,0 +1,29 @@
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-6 {
+    font-size: 6px;
+}
+.op-02 {
+    opacity: 0.2;
+}
+
+.op-04 {
+    opacity: 0.4;
+}
+
+.position-fixed {
+    position: fixed;
+    width: 100%;
+}
+
+
