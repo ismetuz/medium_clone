@@ -12,8 +12,13 @@
 </head>
 
 <body>
+  <!-- Uyarın Login Mesajı-->
+  {% include 'core/messages.html' %}
+
+  <!-- Uyarın Login Mesajı END-->
+  
   <!-- Navbar -->
-    {% include 'core/navbar.html' %}
+  {% include 'core/navbar.html' %}
   <!-- Navbar END -->
   <!-- Hero -->
   <div class="bg-warning py-5 border-bottom border-dark">
@@ -378,7 +383,7 @@
       </aside>
     </div>
   </section>
-  <!-- BLOGS END -->
+  <!-- BLOGS END -->  
 
 
 
@@ -388,5 +393,4 @@
   <script src="{% static 'js/style.js' %}"></script>
 
 </body>
-
 </html>

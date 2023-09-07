@@ -144,8 +144,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # YAPILACAKLAR:::
 
-#TODO: Login
-#TODO: Sign Up
+#DONE: Login
+#DONE: Logout
+#DONE: Sign Up- Avatar İnstagram /user_slug /one_to_one /profile
 #TODO: Reset Password
 #TODO: User Avatar, İnstagram Accunt, user_slug(first_name, last_name)
 #TODO: Blog App

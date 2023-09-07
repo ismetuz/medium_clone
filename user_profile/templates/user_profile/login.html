@@ -7,10 +7,10 @@
         <div class="col-sm-6 offset-sm-3">
             <h1>Login:</h1>
             <form method="post">
+                {% csrf_token %}
                 <!-- Formun içinde method belirtmeyi unutma eğer aramada method gürnmeyecekse method POST olmalı-->
                 <!-- HER İNPUTTA NAME BİLGİSİ OLMALI-->
                 <!-- method post yaptık - nameleri yazdık crsf_token eklemezsek hata alırız-->
-                {% csrf_token %}
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username">
